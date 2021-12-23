@@ -4,79 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>LazaPee</title>
 </head>
 <body>
-    <div>
-    <a href="/index.html"> <img src="./images/lazapee-logo.png" alt="Lazapee-logo" style="width:185px;height:70px;"></a>
     <nav>
-        <ul>
-            <li><a href="./account/account.html">Account</a></li>
-            <li><a href="/cart.html">Cart</a></li>
-            <br>
-            <li><a href="/categories/electronic.html">Electronic Devices</a></li>
-            <li><a href="/categories/health-beauty.html">Health & Beauty</a></li>
-            <li><a href="/categories/babies-toys.html">Babies & Toys</a></li>
-            <li><a href="/categories/groceries-pets.html">Groceries & Pets</a></li>
-            <li><a href="/categories/home-living.html">Home & Living</a></li>
-            <li><a href="/categories/fashion.html">Fashion</a></li>
-        </ul>
-    </nav>
-    <hr>
-    </div>
-    <!-- Flash Sale Section -->
-    <div>
-        <h1>Flash Sale</h1>
 
-        <div>
-        <a href="/products/groceries-pets/fruits-package.html">
-            <img src="/images/products/groceries-pets/fruits-package.jpg" alt=""> 
-            <br>
-            Fruit Pacakage <i>P1200</i>
-        </a>
-        <br>
-        </div>
-        <br>
-        <div>
-            <a href="/products/home-living/indoor-plant.html">
-                <img src="/images/products/home-living/indoor-plant.jpg" alt=""> 
-                <br>
-                Indoor Plant <i>P300</i>
-            </a>
+        <div class="navigation">
+
+            <div class="logo">
+                <a href="/index.html"> <img src="./images/lazapee-logo.png" alt="Lazapee-logo" style="width:185px;height:70px;"></a>
+            </div>
             
-        </div>
-        <br>
-        <div>
-            <a href="/products/babies-toys/baby-cars.html">
-                <img src="/images/products/babies-toys/baby-cars.jpg" alt=""> 
-                <br>
-                Baby Cars <i>P150</i>
-            </a>
-        </div>
-        <br>
-        <div>
-            <a href="/products/fashion/black-shirt.html">
-                <img src="/images/products/fashion/black-shirt.jpg" alt=""> 
-                <br>
-                Black Shirt <i>P400</i>
-            </a>
-        </div>
+            <div class="categories">
+                <ul>
+                    <li><a href="/categories/electronic.html">Electronic Devices</a></li>
+                    <li><a href="/categories/health-beauty.html">Health & Beauty</a></li>
+                    <li><a href="/categories/babies-toys.html">Babies & Toys</a></li>
+                    <li><a href="/categories/groceries-pets.html">Groceries & Pets</a></li>
+                    <li><a href="/categories/home-living.html">Home & Living</a></li>
+                    <li><a href="/categories/fashion.html">Fashion</a></li>
+                </ul>
+            </div>
 
+            <div class="account-cart">
+                <ul>
+                    <li><a href="/account/account.html">Account</a></li>
+                    <li><a href="/cart.html">Cart</a></li>
+                </ul>
+            </div>
+                
+        </div>
+    </nav>
+    <!-- Flash Sale Section -->
+    <div class="sale">
+        <h1>Flash Sale</h1>
+        <div class="sale-container">
+            <div class="products">
+            <a href="/products/groceries-pets/fruits-package.html">
+                <img src="/images/products/groceries-pets/fruits-package.jpg" alt=""> 
+                <p>Fruit Pacakage </p> <i>P1200</i>
+            </a>
+            </div>
+            <div class="products">
+                <a href="/products/home-living/indoor-plant.html">
+                    <img src="/images/products/home-living/indoor-plant.jpg" alt=""> 
+                    <p>Indoor Plant</p>  <i>P300</i>
+                </a>
+                
+            </div>
+            <div class="products">
+                <a href="/products/babies-toys/baby-cars.html">
+                    <img src="/images/products/babies-toys/baby-cars.jpg" alt=""> 
+                    <p>Baby Cars</p>  <i>P150</i>
+                </a>
+            </div>
+            <div class="products">
+                <a href="/products/fashion/black-shirt.html">
+                    <img src="/images/products/fashion/black-shirt.jpg" alt=""> 
+                    <p>Black Shirt</p>  <i>P400</i>
+                </a>
+            </div>
+        </div>
     </div>
 </body>
 
 <footer>
-    <hr>
-    <div>
-        &#169 Lazapee 2021
-
+    <div class="socials">
+        <strong>Follow Us</strong>
         <ul>
-            <li><strong>Follow Us</strong></li>
             <li><a href="https://www.facebook.com/" target="_blank"><img src="/images/socials/facebook.png" alt="Facebook"></a></li>
             <li><a href="https://www.instagram.com/" target="_blank"><img src="/images/socials/instagram.png" alt="Instagram"></a></li>
             <li><a href="https://twitter.com/" target="_blank"><img src="/images/socials/twitter.png" alt="Twitter"></a></li>
             <li><a href="https://www.youtube.com/" target="_blank"><img src="/images/socials/youtube.png" alt="Youtube"></a></li>
         </ul>
+    </div>    
+
+    <div class="copyright">
+        &#169 Lazapee 2021
     </div>
 </footer>
 </html>

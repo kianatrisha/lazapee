@@ -4,53 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+
     <title>BabiesToys</title>
 </head>
 <body>
-    <div>
-        <a href="/index.html"> <img src="/images/lazapee-logo.png" alt="Lazapee-logo" style="width:185px;height:70px;"></a>
-        <nav>
-            <ul>
-                <li><a href="/account/account.html">Account</a></li>
-                <li><a href="/cart.html">Cart</a></li>
-                <br>
-                <li><a href="/categories/electronic.html">Electronic Devices</a></li>
-                <li><a href="/categories/health-beauty.html">Health & Beauty</a></li>
-                <li><a href="/categories/babies-toys.html">Babies & Toys</a></li>
-                <li><a href="/categories/groceries-pets.html">Groceries & Pets</a></li>
-                <li><a href="/categories/home-living.html">Home & Living</a></li>
-                <li><a href="/categories/fashion.html">Fashion</a></li>
-            </ul>
-        </nav>
-        <hr>
-    </div>
-    <div>
-        <h1>Vegetable Package</h1>
+    <nav>
 
-        <i>P700</i>
-        <br>
-        <form>
-            Qty: <input type="Number" min="1">
-            <button>Add to Cart</button>
-        </form>
+        <div class="navigation">
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi enim perferendis tempore atque aperiam eaque aspernatur, veniam nulla consectetur quidem amet? Numquam quisquam quidem ducimus fuga ea vitae sit laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sint labore totam asperiores aspernatur voluptates dolorem aut omnis eligendi fuga? Nam dolore id eum sint et sapiente eius neque maxime.</p>
-    
-        <img src="/images/products/groceries-pets/vegetable-package.jpg" alt="">
+            <div class="logo">
+                <a href="/index.html"> <img src="/images/lazapee-logo.png" alt="Lazapee-logo" style="width:185px;height:70px;"></a>
+            </div>
+            
+            <div class="categories">
+                <ul>
+                    <li><a href="/categories/electronic.html">Electronic Devices</a></li>
+                    <li><a href="/categories/health-beauty.html">Health & Beauty</a></li>
+                    <li><a href="/categories/babies-toys.html">Babies & Toys</a></li>
+                    <li><a href="/categories/groceries-pets.html">Groceries & Pets</a></li>
+                    <li><a href="/categories/home-living.html">Home & Living</a></li>
+                    <li><a href="/categories/fashion.html">Fashion</a></li>
+                </ul>
+            </div>
+
+            <div class="account-cart">
+                <ul>
+                    <li><a href="/account/account.html">Account</a></li>
+                    <li><a href="/cart.html">Cart</a></li>
+                </ul>
+            </div>
+                
+        </div>
+    </nav>
+    <div class="sale2">
+        
+        <div class="s-container">
+            <div class="name">
+                <h1>Vegetable Package</h1>
+            </div>
+            <div class="s-product">
+                <img src="/images/products/groceries-pets/vegetable-package.jpg" alt="">
+                <div class="description">
+                    <i>P700</i>
+                    <form>
+                        Qty: <input type="Number" min="1">
+                        <button>Add to Cart</button>
+                    </form>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi enim perferendis tempore atque aperiam eaque aspernatur, veniam nulla consectetur quidem amet? Numquam quisquam quidem ducimus fuga ea vitae sit laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sint labore totam asperiores aspernatur voluptates dolorem aut omnis eligendi fuga? Nam dolore id eum sint et sapiente eius neque maxime.</p>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>
 <footer>
-    <hr>
-    <div>
-        &#169 Lazapee 2021
+    <div class="socials">
+        <strong>Follow Us</strong>
         <ul>
-            <li><strong>Follow Us</strong></li>
             <li><a href="https://www.facebook.com/" target="_blank"><img src="/images/socials/facebook.png" alt="Facebook"></a></li>
             <li><a href="https://www.instagram.com/" target="_blank"><img src="/images/socials/instagram.png" alt="Instagram"></a></li>
             <li><a href="https://twitter.com/" target="_blank"><img src="/images/socials/twitter.png" alt="Twitter"></a></li>
             <li><a href="https://www.youtube.com/" target="_blank"><img src="/images/socials/youtube.png" alt="Youtube"></a></li>
         </ul>
+    </div>    
+
+    <div class="copyright">
+        &#169 Lazapee 2021
     </div>
 </footer>
 </html>
